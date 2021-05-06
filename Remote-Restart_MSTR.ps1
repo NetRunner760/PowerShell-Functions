@@ -8,7 +8,7 @@ Master Functions file for: Remote-Restart script.
 
 .NOTES
     Version 1.0: ------- 03/31/21
-        Initial Release.
+        Initial Draft.
 
     Version 1.1: ------- 04/06/21
         Added in shell Yes or No prompt function.
