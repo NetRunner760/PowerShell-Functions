@@ -36,9 +36,9 @@ function Write-ScriptTitle {
         Clear-Host 
         Write-Host `n$('>' * ($Title.length))`n$Title`n$('<' * ($Title.length))`n -ForegroundColor Red
     } <#
-    .Description: Write-ScriptTitle
-        Displays script title on script start.
-    #>
+.Description: Write-ScriptTitle
+    Displays script title on script start.
+#>
 function Get-Computer {
     Read-Host -Prompt 'Target Computer'
 } <#
