@@ -10,14 +10,9 @@ Master Functions file for: Remote-Uninstall script.
     Version 1.0: ------- 04/20/21
         Researched methods, wrote up initial functions, and tested functionality.
 
-    Version 1.1: ------- 05/01/21
-        Combined enable and disable key scripts. 
-            Added in shell Yes or No prompt function to tie in enable key function.
-                Created a function to check, capture, and display the current key value for value verification.
-
-    Version 1.2: ------- 05/03/21
-        Corrected and finalized Show-Result functions.
-            Cleaned up formating, revised function order, and names. 
+    Version 1.1: ------- 04/27/21
+        Found a better function to generate the programs list, function written by ThePoSHWolf. Tied it into a formatting function which is called by the $App variable. This captures the selection.
+            Added Test-Computer function and Windows GUI message outputs.
                 Implemented introductional comment block, with change notes.
                     Moved functions onto a separate "Master Functions File", which imports before StartScript. Enabling the calling of said functions and cleaning up appearance.
                         Imported Write-ScriptTitle / End functions.
